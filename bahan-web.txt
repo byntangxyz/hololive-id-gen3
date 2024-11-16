@@ -1,0 +1,20 @@
+tailwind
+aos
+
+
+warna global
+primary: #39ABE0
+sec: #5EDEEC
+font: #063F5C
+hover: #5AC6FB
+
+warna per karakter
+zeta
+zeta-prime: #1A1C22
+zeta-sec: #3E3EFF
+kobo
+kobo-prime: #1CBDDD
+kobo-sec: #AEE8F3
+kaela
+kaela-prime: #EC1A02
+kaela-sec: #ECC634
