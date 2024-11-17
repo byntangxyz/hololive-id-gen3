@@ -1,11 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-
-// Komponen untuk halaman utama dan karakter
-const Zeta = () => <div>Ini informasi tentang Zeta</div>;
-const Kobo = () => <div>Ini informasi tentang Kobo</div>;
-const Kaela = () => <div>Ini informasi tentang Kaela</div>;
+import Zeta from "./pages/Zeta";
+import Kobo from "./pages/Kobo";
+import Kaela from "./pages/Kaela";
+import NotFound from "./pages/404";
 
 const App = () => {
   return (
@@ -15,6 +14,7 @@ const App = () => {
         <Route path="/zeta" element={<Zeta />} />
         <Route path="/kobo" element={<Kobo />} />
         <Route path="/kaela" element={<Kaela />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
